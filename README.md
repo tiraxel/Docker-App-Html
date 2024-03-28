@@ -1,4 +1,4 @@
-*Listar Contenedores
+#Listar Contenedores
 docker ps -a
 
 #Para eliminar contenedores
@@ -20,7 +20,7 @@ Example
 docker run -dit --name mi-app-dockerizada -p 1234:80 mi-imagen 
 
 #Compruebo la pagina que esta arriba
-http://<IP_VM>:<puertoExpuesto>/pagina.html
+http://IP_VM:puertoExpuesto/pagina.html
 
 Example
 http://192.168.100.15:3333/inicio.html
